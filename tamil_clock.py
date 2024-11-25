@@ -110,8 +110,8 @@ class DateUtils:
 class DigitalTamilClock(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Digital Tamil Clock")
-        self.setGeometry(100, 100, 400, 200)   
+        self.setWindowTitle("உங்கள் நேரமும் தேதியும் உங்கள் கையில்")
+        self.setGeometry(100, 100, 450, 200)   
         
         # Set minimum and maximum size
         self.setMinimumSize(400, 200)  # Minimum width and height
