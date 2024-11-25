@@ -1,7 +1,10 @@
 # Digital Tamil Clock
+தற்போதைய நேரம் மற்றும் தேதி தூய தமிழில்.
+This is a Digital Tamil Clock application developed in Python using PyQt5. 
+It displays the current time and date in Tamil, formatted in a user-friendly manner.
+## To Run
 
-This is a Digital Tamil Clock application developed in Python using PyQt5. It displays the current time and date in Tamil, formatted in a user-friendly manner.
-
+python3 tamil_clock.py
 ## Author
 
 - **Jesman Anthonypillai**
@@ -12,7 +15,7 @@ This is a Digital Tamil Clock application developed in Python using PyQt5. It di
 1.0
 
 ## Description
-
+தற்போதைய நேரம் மற்றும் தேதி தூய தமிழில்.
 The Digital Tamil Clock application showcases the current time and date in Tamil. It dynamically updates every second to provide real-time information. The display includes the hour, minute, and second, as well as the Tamil month, day, and year.
 
 ## Features
@@ -20,6 +23,8 @@ The Digital Tamil Clock application showcases the current time and date in Tamil
 - Displays the current time in Tamil.
 - Formats the date according to Tamil conventions.
 - Updates every second for real-time accuracy.
+- தற்போதைய நேரம் மற்றும் தேதி தூய தமிழில்.
+  
 
 ## Requirements
 
