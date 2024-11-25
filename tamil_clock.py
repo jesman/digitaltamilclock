@@ -1,3 +1,14 @@
+"""
+Author: Jesman Anthonypillai
+Email: jesman23@gmail.com
+Date: July 23, 2024
+Description: தற்போதைய நேரம் மற்றும் தேதி தூய தமிழில். 
+
+             This is a Digital Tamil Clock application developed in Python using PyQt5. 
+             It displays the current time and date in Pure Tamil Only.
+"""
+
+
 from __future__ import print_function
 import time
 import sys
