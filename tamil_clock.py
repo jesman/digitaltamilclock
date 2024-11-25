@@ -112,15 +112,13 @@ class DigitalTamilClock(QWidget):
         super().__init__()
         self.setWindowTitle("உங்கள் நேரமும் தேதியும் உங்கள் கையில்")
         self.setGeometry(100, 100, 450, 200)   
-        
-        # Set minimum and maximum size
-        self.setMinimumSize(400, 200)  # Minimum width and height
-        self.setMaximumSize(800, 400)  # Maximum width and height
-        
-        # Set the window icon
-        app_icon = QIcon("./icon.png")
-        self.setWindowIcon(app_icon)
+                
+        # Disable maximize button
+        self.setWindowFlags(self.windowFlags() & ~Qt.WindowMaximizeButtonHint)
 
+        # Fix the window size to prevent resizing
+        self.setFixedSize(450, 200)
+       
              
         self.label = QLabel("", self)
         self.label.setAlignment(Qt.AlignCenter)
