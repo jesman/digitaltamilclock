@@ -4,7 +4,7 @@ This is a Digital Tamil Clock application developed in Python using PyQt5.
 It displays the current time and date in Tamil, formatted in a user-friendly manner.
 ## To Run
 
-python3 tamil_clock.py
+python3 tt_CLOCK.py
 ## Author
 
 - **Jesman Anthonypillai**
