@@ -8,10 +8,7 @@ Description: தற்போதைய நேரம் மற்றும் த�
              This is a Digital Tamil Clock application developed in Python using PyQt5. 
              It displays the current time and date in Pure Tamil Only.
 """
-
-PYTHON3 = sys.version > '3'
-
-
+import sys
 import time
 
 class TamilTime:
